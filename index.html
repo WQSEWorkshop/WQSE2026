@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WQSE - I Brazilian Workshop on Quantum Software Engineering</title>
+    <meta name="description" content="Join the I Brazilian Workshop on Quantum Software Engineering (WQSE). Bridging the gap between academic research and modern software engineering practices in quantum computing.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">WQSE<span class="text-cyan">.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#call-for-papers" class="nav-link">Call for Papers</a></li>
+                    <li><a href="#schedule" class="nav-link">Schedule</a></li>
+                    <li><a href="#registration" class="btn btn-secondary">Register Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero section-dark">
+            <div class="container grid">
+                <div class="col-8 hero-content">
+                    <div>
+                        <span class="chip" style="background-color: rgba(0, 204, 255, 0.2); color: var(--color-tertiary); margin-bottom: 16px;">November 12-14, 2026 • São Paulo, Brazil</span>
+                    </div>
+                    <h1 class="display">I Brazilian Workshop on <span class="text-cyan">Quantum Software Engineering</span></h1>
+                    <p class="body-lg" style="color: var(--color-inverse-primary);">
+                        Bridging the gap between academic rigor and modern software engineering practices. Join researchers and industry leaders in shaping the future of quantum software.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#registration" class="btn btn-secondary">Secure Your Spot</a>
+                        <a href="#call-for-papers" class="btn" style="background-color: transparent; border: 1px solid var(--color-tertiary); color: var(--color-tertiary);">Submit a Paper</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container grid">
+                <div class="col-8">
+                    <h2 class="headline-lg">About the Workshop</h2>
+                    <p class="body-md" style="margin-bottom: var(--spacing-md);">
+                        Quantum computing is rapidly moving from theoretical physics to practical software engineering. The I Brazilian Workshop on Quantum Software Engineering (WQSE) aims to bring together researchers, practitioners, and educators to discuss the challenges and opportunities in building robust, scalable, and maintainable quantum software systems.
+                    </p>
+                    
+                    <div class="grid" style="gap: var(--spacing-md);">
+                        <div class="col-6 card">
+                            <h3 class="headline-md" style="font-size: 20px;">Research Tracks</h3>
+                            <p class="body-md">Explore cutting-edge research in quantum algorithms, testing, debugging, and architecture.</p>
+                        </div>
+                        <div class="col-6 card">
+                            <h3 class="headline-md" style="font-size: 20px;">Industry Insights</h3>
+                            <p class="body-md">Learn from industry leaders applying quantum computing to solve real-world complex problems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call for Papers Section -->
+        <section id="call-for-papers" class="section" style="background-color: var(--bg-level-1);">
+            <div class="container grid">
+                <div class="col-12 text-center" style="margin-bottom: var(--spacing-lg);">
+                    <h2 class="headline-lg">Call for Papers</h2>
+                    <p class="body-lg col-8" style="margin: 0 auto;">We invite submissions of original research, experience reports, and tool demonstrations in the field of Quantum Software Engineering.</p>
+                </div>
+
+                <div class="col-4 card">
+                    <h3 class="headline-md" style="font-size: 20px;">Topics of Interest</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px;">
+                        <span class="chip">Quantum Algorithms</span>
+                        <span class="chip">Testing & Debugging</span>
+                        <span class="chip">Quantum Architecture</span>
+                        <span class="chip">Qiskit / Cirq</span>
+                        <span class="chip">Compiler Optimization</span>
+                    </div>
+                </div>
+                
+                <div class="col-8">
+                    <div class="code-block">
+<span class="code-keyword">import</span> qiskit
+<span class="code-keyword">from</span> qiskit <span class="code-keyword">import</span> QuantumCircuit
+
+<span style="color: #7584a3;"># Example of a basic quantum circuit</span>
+qc = QuantumCircuit(2, 2)
+qc.h(0)
+qc.cx(0, 1)
+qc.measure([0, 1], [0, 1])
+
+<span style="color: #7584a3;"># We are looking for robust tools and frameworks!</span>
+print(<span class="code-string">"Submit your paper to WQSE 2026!"</span>)
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section id="schedule" class="section">
+            <div class="container grid">
+                <div class="col-12 text-center" style="margin-bottom: var(--spacing-lg);">
+                    <h2 class="headline-lg">Event Schedule</h2>
+                    <p class="body-lg">Three days of intensive talks, workshops, and networking.</p>
+                </div>
+
+                <div class="col-8" style="margin: 0 auto;">
+                    <!-- Schedule Item 1 -->
+                    <div class="card" style="margin-bottom: var(--spacing-md); border-left: 4px solid var(--color-secondary);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+                            <h3 class="headline-md" style="font-size: 20px; margin: 0;">Keynote: The Future of Quantum Compilers</h3>
+                            <span class="label-md" style="color: var(--color-secondary);">09:00 AM</span>
+                        </div>
+                        <p class="body-md" style="color: var(--color-on-surface-variant); margin-bottom: 16px;">Dr. Alice Silva • Main Auditorium</p>
+                        <span class="chip">Keynote</span>
+                    </div>
+
+                    <!-- Schedule Item 2 -->
+                    <div class="card" style="margin-bottom: var(--spacing-md); border-left: 4px solid var(--color-tertiary);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+                            <h3 class="headline-md" style="font-size: 20px; margin: 0;">Workshop: Testing Quantum Programs</h3>
+                            <span class="label-md" style="color: var(--color-outline);">11:00 AM</span>
+                        </div>
+                        <p class="body-md" style="color: var(--color-on-surface-variant); margin-bottom: 16px;">Prof. Bob Mendes • Room 2B</p>
+                        <span class="chip">Workshop</span>
+                        <span class="chip">Testing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration -->
+        <section id="registration" class="section section-dark text-center">
+            <div class="container grid">
+                <div class="col-8" style="margin: 0 auto;">
+                    <h2 class="headline-lg">Join Us at WQSE</h2>
+                    <p class="body-lg" style="color: var(--color-inverse-primary); margin-bottom: var(--spacing-lg);">Register early to secure your spot at the leading quantum software engineering event in Brazil.</p>
+                    
+                    <form style="background-color: var(--bg-level-0); padding: var(--spacing-lg); border-radius: var(--rounded-lg); text-align: left; max-width: 500px; margin: 0 auto;">
+                        <h3 class="headline-md" style="color: var(--color-primary); margin-bottom: var(--spacing-md);">Registration Interest</h3>
+                        
+                        <div class="input-group">
+                            <label class="input-label" for="name">Full Name</label>
+                            <input type="text" id="name" class="input-field" placeholder="Jane Doe">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="input-label" for="email">Email Address</label>
+                            <input type="email" id="email" class="input-field" placeholder="jane@university.edu">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label" for="role">Role</label>
+                            <select id="role" class="input-field" style="appearance: none;">
+                                <option>Academic / Researcher</option>
+                                <option>Industry Professional</option>
+                                <option>Student</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-secondary" style="width: 100%; margin-top: var(--spacing-sm);">Notify Me When Registration Opens</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h2 class="logo" style="color: var(--color-surface-bright);">WQSE<span class="text-cyan">.</span></h2>
+            <p class="body-md" style="color: var(--color-inverse-primary); margin: var(--spacing-sm) 0;">I Brazilian Workshop on Quantum Software Engineering</p>
+            <p class="label-md" style="color: var(--color-on-primary-container);">© 2026 WQSE. Designed for excellence in Quantum Software.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
